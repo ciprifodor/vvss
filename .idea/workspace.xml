@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd0c75d9-d300-4d92-8274-3f46f70b5a2b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/begin/Start.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/begin/Start.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/control/BibliotecaCtrl.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/control/BibliotecaCtrl.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/model/Carte.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/model/Carte.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/repository/repo/CartiRepo.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/repository/repo/CartiRepo.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/repository/repoInterfaces/CartiRepoInterface.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/repository/repoMock/CartiRepoMock.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/util/Validator.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/util/Validator.java" />
-      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/view/Consola.java" afterPath="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/view/Consola.java" />
+      <change beforePath="$PROJECT_DIR$/ProiectBiblioteca/pom.xml" afterPath="$PROJECT_DIR$/ProiectBiblioteca/pom.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BibliotecaCtrl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BibliotecaCtrl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/control/BibliotecaCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProiectBiblioteca/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -67,6 +77,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/begin/Start.java" />
+        <option value="$PROJECT_DIR$/ProiectBiblioteca/pom.xml" />
       </list>
     </option>
   </component>
@@ -383,12 +394,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552850039117</updated>
       <workItem from="1552850041354" duration="1111000" />
-      <workItem from="1553007572217" duration="64000" />
+      <workItem from="1553007572217" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1175000" />
+    <option name="totallyTimeSpent" value="1273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -475,8 +486,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProiectBiblioteca/src/main/java/biblioteca/control/BibliotecaCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="374">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProiectBiblioteca/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding />
         </state>
       </provider>
