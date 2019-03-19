@@ -17,6 +17,7 @@ public class BibliotecaCtrl {
 	
 	public void adaugaCarte(Carte carte) throws Exception{
 		Validator.validateCarte(carte);
+
 		cr.adaugaCarte(carte);
 	}
 	

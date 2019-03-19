@@ -13,7 +13,7 @@ import java.util.List;
 
 public class CartiRepo implements CartiRepoInterface {
 	
-	private String file = "cartiBD.txt";
+	private String file = "cartiBD.dat";
 	
 	public CartiRepo(){
 		File yourFile = new File(file);
@@ -26,7 +26,7 @@ public class CartiRepo implements CartiRepoInterface {
 	
 	@Override
 	public void adaugaCarte(Carte c) {
-		BufferedWriter bw = null;
+		BufferedWriter bw;
 		try {
 			bw = new BufferedWriter(new FileWriter(file,true));
 			bw.write(c.toString());
