@@ -37,6 +37,7 @@ public class CartiRepoTest {
 
     @Test
     public void adaugaCarte2(){
+        //titlu gol
         Carte carte = new Carte();
         carte.setTitlu("");
         carte.setAnAparitie("1992");
@@ -52,6 +53,7 @@ public class CartiRepoTest {
     @Test
     public void adaugaCarte3()  {
         Carte carte = new Carte();
+        // titlu prea lung
         carte.setTitlu("The classic children’s book uses a spectacular image to grab people’s attention:" +
                 " Could you imagine looking up in the sky and seeing meatballs beginning to rain down? " +
                 "That’s the colorful image the equally colorful book creates with its title. " +
@@ -100,6 +102,7 @@ public class CartiRepoTest {
 
     @Test
     public void adaugaCarte6()  {
+        //an prea mic
         Carte carte = new Carte();
         carte.setTitlu("Enigma Otiliei");
         carte.setAnAparitie("1600");
@@ -114,6 +117,7 @@ public class CartiRepoTest {
 
     @Test
     public void adaugaCarte7() {
+        //an prea mare
         Carte carte = new Carte();
         carte.setTitlu("Moara cu noroc");
         carte.setAnAparitie("2024");
