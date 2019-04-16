@@ -3,9 +3,9 @@ package biblioteca.repository.repo;
 
 import biblioteca.model.Carte;
 import biblioteca.repository.repoInterfaces.CartiRepoInterface;
+import biblioteca.util.exceptions.InvalidValueException;
 
 import java.io.*;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -72,27 +72,35 @@ public class CartiRepo implements CartiRepoInterface {
 	}
 
 	@Override
-	public List<Carte> cautaCarte(String ref) {
-		List<Carte> carti = getCarti();
+	public List<Carte> cautaCarte(String ref) throws InvalidValueException {
 		List<Carte> cartiGasite = new ArrayList<Carte>();
+		if(ref.equals("")) {
+			throw new InvalidValueException("Autorul nu poate fi null !");
+		}
+		List<Carte> carti = getCarti();
 		int i=0;
 		while (i<carti.size()){
-			boolean flag = false;
 			List<String> lref = carti.get(i).getReferenti();
-			int j = 0;
-			while(j<lref.size()){
-				if(lref.get(j).toLowerCase().contains(ref.toLowerCase())){
-					flag = true;
-					break;
+			if(!lref.isEmpty()) {
+				boolean flag = authorWroteBook(lref, ref);
+				if(flag){
+					cartiGasite.add(carti.get(i));
 				}
-				j++;
-			}
-			if(flag == true){
-				cartiGasite.add(carti.get(i));
 			}
 			i++;
 		}
 		return cartiGasite;
+	}
+
+	private boolean authorWroteBook(List<String> autori, String autor) {
+		int j = 0;
+		while(j<autori.size()){
+			if(autori.get(j).toLowerCase().contains(autor.toLowerCase())){
+				return true;
+			}
+			j++;
+		}
+		return false;
 	}
 
 	@Override
@@ -100,7 +108,7 @@ public class CartiRepo implements CartiRepoInterface {
 		List<Carte> lc = getCarti();
 		List<Carte> lca = new ArrayList<Carte>();
 		for(Carte c:lc){
-			if(c.getAnAparitie().equals(an) == true){
+			if(c.getAnAparitie().equals(an)){
 				lca.add(c);
 			}
 		}
