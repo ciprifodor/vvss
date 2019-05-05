@@ -44,7 +44,7 @@ public class CartiRepoMock implements CartiRepoInterface {
 		while (i<carti.size()){
 			List<String> lref = carti.get(i).getReferenti();
 			if(!lref.isEmpty()) {
-				boolean flag = autorWroteBook(lref, ref);
+				boolean flag = authorWroteBook(lref, ref);
 				if(flag){
 					cartiGasite.add(carti.get(i));
 				}
@@ -54,7 +54,7 @@ public class CartiRepoMock implements CartiRepoInterface {
 		return cartiGasite;
 	}
 
-	public boolean autorWroteBook(List<String> autori, String autor) {
+	private boolean authorWroteBook(List<String> autori, String autor) {
 		int j = 0;
 		while(j<autori.size()){
 			if(autori.get(j).toLowerCase().contains(autor.toLowerCase())){
